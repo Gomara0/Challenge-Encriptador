@@ -1,0 +1,39 @@
+
+
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="imagenes/Logo.png" alt="Logo de alura">
+    </header>
+    <main class="box">
+        <section>
+            <textarea id="mensaje" placeholder="digite el texto que desea utilizar"></textarea>
+            <div>
+                <p>⛧ solamente minusculas</p>
+            </div>
+            <div>
+                <button class="btnEncriptar" onclick="btnEncriptar()">encriptar</button>
+                <button class="btnDesencriptar" onclick="btnDesencriptar()">desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea id="codificado" cols="30" rows="10"></textarea>
+            <div>
+                <button class="copiar" onclick="copiar()">copiar</button>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="alura.js"></script>
+</html>

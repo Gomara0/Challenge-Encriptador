@@ -1,0 +1,87 @@
+*{
+    background-color: rgb(125, 150, 231);
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+
+#logo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#codificado{
+    background-image: url(imagenes/Muñeco.png);
+}
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#mensaje{
+    padding: 10px;
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: #fff;
+    resize: none;
+    outline: none;
+}
+
+#codificado{
+    padding: 10px;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: #fff;
+    resize: none;
+    text-decoration: none;
+    outline: none;
+    background-repeat: no-repeat;
+    background-position-x: -5px;
+    background-position-y: 50px;
+}
+
+
+main p{
+    margin: 10px;
+}
+
+.btnEncriptar{
+    margin-top: 10px;
+    padding: 7px 20px;
+    border-radius: 15px;
+    border: 1px solid #000;
+    background-color: rgb(22, 6, 68);
+    color: white;
+    margin-right: 10px;
+}
+
+.btnEncriptar:hover{
+    scale: 1.1;
+}
+
+.btnDesencriptar{margin-top: 10px;
+    padding: 7px 20px;
+    border-radius: 15px;
+    border: 1px solid #000;
+    background-color: rgb(22, 6, 68);
+    color: white;
+}
+
+.btnDesencriptar:hover{
+    scale: 1.1;
+}
+
+.copiar{margin-top: 10px;
+    padding: 7px 20px;
+    border-radius: 15px;
+    border: 1px solid #000;
+    background-color: rgb(22, 6, 68);
+    color: white;
+}
+
+.copiar:hover{
+    scale: 1.1;
+}
